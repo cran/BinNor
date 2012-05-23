@@ -50,7 +50,4 @@ cmat = lower.tri.to.corr.mat(corr.vec= c(0.16, 0.04, 0.38, 0.14, 0.47, 0.68),4)
 compute.sigma.star(no.bin=2, no.nor=2, prop.vec.bin=c(0.4,0.7), 
 corr.vec=NULL,corr.mat=cmat)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+

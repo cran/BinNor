@@ -48,28 +48,6 @@ Specified correlation matrix
   \item{continue.with.warning}{ TRUE to proceed with the nearest positive definite \eqn{\Sigma^*}. FALSE to terminate program execution if  \eqn{\Sigma^*} is not positive definite
 }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
-\references{
-%% ~put references to the literature/web site here ~
-}
-\author{
-%%  ~~who you are~~
-}
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
 \seealso{
 \code{\link{compute.sigma.star}}, \code{\link{jointly.generate.binary.normal}}
 }
@@ -78,7 +56,4 @@ simulation(nsim=10, no.rows=100, no.bin=2, no.nor=2,
 		mean.vec.nor=c(3,1), var.nor=c(4,2), prop.vec.bin=c(0.4,0.7),
 		corr.vec=c(0.16,0.04,0.38,0.14,0.47,0.68), corr.mat=NULL)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+

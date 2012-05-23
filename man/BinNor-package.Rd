@@ -15,8 +15,8 @@ random number generation literature, based on the methodology proposed by Demirt
 \tabular{ll}{
 Package: \tab BinNor\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-11-04\cr
+Version: \tab 2.0\cr
+Date: \tab 2012-05-23\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
@@ -36,10 +36,4 @@ Maintainer: Anup Amatya<aamatya@nmsu.edu>
 \references{
 Demirtas H, Doganay B (2012). Simultaneous generation of binary and normal data with specified
 marginal and association structures. Forthcoming in Journal of Biopharmaceutical Statistics.
-}
-\keyword{ package }
-\seealso{
-}
-\examples{
-\dontrun{}
 }

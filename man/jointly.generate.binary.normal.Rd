@@ -44,31 +44,16 @@ Specified correlation matrix
 }
   \item{continue.with.warning}{ 
 TRUE to proceed with the nearest positive definite \eqn{\Sigma^*}. FALSE to terminate program execution if  \eqn{\Sigma^*} is not positive definite
+  }
 }
 
-}
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
 \value{
  \item{data }{A matrix of generated data.}
-%% ...
-}
-\references{
-%% ~put references to the literature/web site here ~
-}
-\author{
-%%  ~~who you are~~
-}
-\note{
-%%  ~~further notes~~
 }
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{compute.sigma.star}}, \code{\link{validation.corr}}, \code{\link{validation.bin}}, \code{\link{validation.nor}}, 
-\code{\link{nearPD}}, \code{\link{simulation}}, \code{\link{rmvnorm}}
+\code{\link{compute.sigma.star}}, \code{\link{validation.corr}}, \code{\link{validation.bin}}, \code{\link{validation.nor}}, \code{\link{nearPD}}, \code{\link{simulation}}, \code{\link{rmvnorm}}
 }
 \examples{
 
