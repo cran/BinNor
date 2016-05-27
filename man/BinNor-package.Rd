@@ -15,8 +15,8 @@ random number generation literature, based on the methodology proposed by Demirt
 \tabular{ll}{
 Package: \tab BinNor\cr
 Type: \tab Package\cr
-Version: \tab 2.0\cr
-Date: \tab 2012-05-23\cr
+Version: \tab 2.1\cr
+Date: \tab 2016-05-27\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
@@ -34,6 +34,7 @@ Anup Amatya, Hakan Demirtas
 Maintainer: Anup Amatya<aamatya@nmsu.edu>
 }
 \references{
-Demirtas H, Doganay B (2012). Simultaneous generation of binary and normal data with specified
-marginal and association structures. Forthcoming in Journal of Biopharmaceutical Statistics.
+Demirtas, H., Doganay, B. (2012). Simultaneous generation of binary and normal data with specified marginal and association structures. Journal of Biopharmaceutical Statistics; 22(2), 223-236.\cr
+Demirtas, H., Amatya, A., and Doganay, B. (2014). BinNor: An R package for con-current generation of binary and normal data. Communications in Statistic-Simulation
+and Computation; 43(3), 569-579.
 }
