@@ -1,14 +1,14 @@
 \name{compute.sigma.star}
 \alias{compute.sigma.star}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Computes intermediate (tetrachoric) correlation matrix
+\title{Computes intermediate correlation matrix
 
 }
 \description{
-This function computes the intermediate correlation matrix by combining tetrachoric correlation
-for binary-binary combinations, biserial correlations for binary-normal combinations and Pearson
-correlation for normal-normal combinations. If the resulting correlation matrix is not positive definite, a nearest
-positive matrix will be used.
+This function computes the intermediate correlation matrix by assembling tetrachoric correlation 
+for binary-binary combinations, biserial correlations for binary-normal combinations, 
+and specified correlation for normal-normal combinations. 
+If the resulting correlation matrix is not positive definite, a nearest positive matrix will be used.
 }
 \usage{
 compute.sigma.star(no.bin, no.nor, prop.vec.bin = NULL,
@@ -42,7 +42,7 @@ compute.sigma.star(no.bin, no.nor, prop.vec.bin = NULL,
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{validation.corr}},  \code{\link{nearPD}}, \code{\link{phi2poly}}, \code{\link{is.positive.definite}}, \cr
+\code{\link{validation.corr}},  \code{\link{nearPD}}, \code{\link{phi2tetra}}, \code{\link{is.positive.definite}}, \cr
 \code{\link{jointly.generate.binary.normal}}, \code{\link{simulation}}
 }
 \examples{

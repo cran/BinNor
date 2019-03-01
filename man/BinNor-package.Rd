@@ -6,7 +6,7 @@
 A package for simultaneous generation of binary and normal data.
 }
 \description{
-Provides R functions for generating multiple binary and normal variables simultaneously given
+Provides R functions for generating multiple binary and normal variables simultaneously given the 
 marginal characteristics and association structure via combining well established results from the
 random number generation literature, based on the methodology proposed by Demirtas and Doganay (2012).
 }
@@ -15,8 +15,8 @@ random number generation literature, based on the methodology proposed by Demirt
 \tabular{ll}{
 Package: \tab BinNor\cr
 Type: \tab Package\cr
-Version: \tab 2.2\cr
-Date: \tab 2018-02-02\cr
+Version: \tab 2.3\cr
+Date: \tab 2019-03-01\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
@@ -29,12 +29,13 @@ repating this process many times and produces averages of some key statistical q
 }
 
 \author{
-Anup Amatya, Hakan Demirtas
+Anup Amatya, Hakan Demirtas, Ran Gao  
 
-Maintainer: Anup Amatya<aamatya@nmsu.edu>
+Maintainer: Ran Gao <rgao8@uic.edu>
 }
 \references{
 Demirtas, H., Doganay, B. (2012). Simultaneous generation of binary and normal data with specified marginal and association structures. Journal of Biopharmaceutical Statistics; 22(2), 223-236.\cr
+\cr
 Demirtas, H., Amatya, A., and Doganay, B. (2014). BinNor: An R package for con-current generation of binary and normal data. Communications in Statistic-Simulation
 and Computation; 43(3), 569-579.
 }

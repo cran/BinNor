@@ -1,7 +1,7 @@
 \name{jointly.generate.binary.normal}
 \alias{jointly.generate.binary.normal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Generates mixed data
+\title{Generates a mix of binary and normal data
 }
 \description{
 Generates multiple binary and normal variables simultaneously given marginal
@@ -34,7 +34,7 @@ Vector of means for normal variables
 Vector of variances for normal variables
 }
  \item{sigma_star}{ 
-Intermidiate correlation matrix
+Intermediate correlation matrix
 }
 \item{corr.vec}{
 Vector of elements below the diagonal of correlation matrix ordered columnwise
