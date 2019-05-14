@@ -62,9 +62,8 @@ function (seed = NULL, nsim, no.rows, no.bin, no.nor, mean.vec.nor = NULL,
     cat("==============================:\n")
     cat("Target variance of normal variate(s): \n")
     print(var.nor)
-    cat("Actual variance of normal variates(s): \n")
+    cat("Actual variance of normal variate(s): \n")
     print(apply(emp.var, 2, mean))
-    cat("==============================:\n")
-    cat("Seed used:", seed, "\n")
+    
 }
 

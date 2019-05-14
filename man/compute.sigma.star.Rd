@@ -5,7 +5,7 @@
 
 }
 \description{
-This function computes the intermediate correlation matrix by assembling tetrachoric correlation 
+This function computes the intermediate correlation matrix by assembling tetrachoric correlations 
 for binary-binary combinations, biserial correlations for binary-normal combinations, 
 and specified correlation for normal-normal combinations. 
 If the resulting correlation matrix is not positive definite, a nearest positive matrix will be used.
