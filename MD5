@@ -1,4 +1,4 @@
-b9777a79562d74026fcafedadf48c213 *DESCRIPTION
+98f02c1a1b592a8bfc1676b49562a2a9 *DESCRIPTION
 db0a831e071fa9cbef025a4a978a60db *NAMESPACE
 7884a329a09bd314d5c2528a7925300f *R/compute.sigma.star.R
 91312e3362768d44d36f964504760873 *R/jointly.generate.binary.normal.R
@@ -8,7 +8,7 @@ d244771039856b038e5289717318c6a0 *R/lower.tri.to.corr.mat.R
 d590cc34057d94d9ff334c63faf9d3d7 *R/validation.corr.R
 f2aa6b1d9bd0fac580b0d7faf35c577d *R/validation.nor.R
 3644882137b3703fc77710b2675d1fa6 *R/validation.range.R
-dd818f6610d3d283de75a3df266a91c0 *man/BinNor-package.Rd
+684d07eedb3934eeb3b4eab65d769668 *man/BinNor-package.Rd
 93205d41947e9c6c469b84b61e45b3b8 *man/compute.sigma.star.Rd
 f683e39a9e42d7fd57203f08613d5aae *man/jointly.generate.binary.normal.Rd
 434823ce53c4044dbe748f01cfc562b7 *man/lower.tri.to.corr.mat.Rd
