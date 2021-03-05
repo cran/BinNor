@@ -2,8 +2,8 @@ Package: BinNor
 Type: Package
 Title: Simultaneous Generation of Multivariate Binary and Normal
         Variates
-Version: 2.3.2
-Date: 2020-04-20
+Version: 2.3.3
+Date: 2021-03-05
 Author: Anup Amatya, Hakan Demirtas, Ran Gao
 Maintainer: Ran Gao <rgao8@uic.edu>
 Depends: mvtnorm, corpcor, psych, Matrix
@@ -11,6 +11,6 @@ Description: Generating multiple binary and normal variables simultaneously give
 License: GPL-2
 LazyLoad: yes
 NeedsCompilation: no
-Packaged: 2020-04-21 00:00:22 UTC; rangao
+Packaged: 2021-03-05 17:40:34 UTC; rangao
 Repository: CRAN
-Date/Publication: 2020-04-21 04:10:02 UTC
+Date/Publication: 2021-03-05 18:20:09 UTC
