@@ -42,7 +42,7 @@ compute.sigma.star(no.bin, no.nor, prop.vec.bin = NULL,
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{validation.corr}},  \code{\link{nearPD}}, \code{\link{phi2tetra}}, \code{\link{is.positive.definite}}, \cr
+\code{\link{validation.corr}},  \code{\link[Matrix]{nearPD}}, \code{\link[psych]{phi2tetra}}, \code{\link[corpcor]{is.positive.definite}}, \cr
 \code{\link{jointly.generate.binary.normal}}, \code{\link{simulation}}
 }
 \examples{

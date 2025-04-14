@@ -53,7 +53,7 @@ TRUE to proceed with the nearest positive definite \eqn{\Sigma^*}. FALSE to term
 
 
 \seealso{
-\code{\link{compute.sigma.star}}, \code{\link{validation.corr}}, \code{\link{validation.bin}}, \code{\link{validation.nor}}, \code{\link{nearPD}}, \code{\link{simulation}}, \code{\link{rmvnorm}}
+\code{\link{compute.sigma.star}}, \code{\link{validation.corr}}, \code{\link{validation.bin}}, \code{\link{validation.nor}}, \code{\link[Matrix]{nearPD}}, \code{\link{simulation}}, \code{\link[mvtnorm]{rmvnorm}}
 }
 \examples{
 
